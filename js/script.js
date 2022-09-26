@@ -1,9 +1,26 @@
-function printMessage(msg){
-	var div = document.createElement('div');
-	div.innerHTML = msg;
-	document.getElementById('messages').appendChild(div);
-}
+const rock = document.querySelector("#rock");
+const paper = document.querySelector("#paper");
+const scissors = document.querySelector("#scissors");
 
-function clearMessages(){
-	document.getElementById('messages').innerHTML = '';
-}
+rock.addEventListener("click",function(){
+const randomMove = createRandomMove();
+displayMoves(this.id, randomMove);
+displayResult(this.id, randomMove);
+})
+
+paper.addEventListener("click",function(){
+const randomMove = createRandomMove();
+displayMoves(this.id, randomMove);
+displayResult(this.id, randomMove);
+})
+
+scissors.addEventListener("click",function(){
+const randomMove = createRandomMove();
+displayMoves(this.id, randomMove);
+displayResult(this.id, randomMove);
+})
+
+
+
+
+

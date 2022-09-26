@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: cadetblue;
+}
+
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+    padding: 200px;
+}
+
+.results{
+    padding: 40px 0;
+    line-height: 25px;
+}
+

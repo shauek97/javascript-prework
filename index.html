@@ -7,8 +7,25 @@
 </head>
 <body>
 	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages"></div>
+		<div id="buttons">
+			<button id="rock">Kamień</button>
+			<button id="paper">Papier</button>
+			<button id="scissors">Nożyce</button>
+		</div>
+		<div class="results">
+			<div>
+				<span>Players move:</span>
+				<span id="players-move">rock</span>
+			</div>
+			<div>
+				<span>Computers move:</span>
+				<span id="computers-move">scissors</span>
+			</div>
+			<div>
+				<span>Final result:</span>
+				<span id="final-result">you loose</span>
+			</div>
+		</div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
